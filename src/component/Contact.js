@@ -75,22 +75,22 @@ import Footer from "../component/Footer";
                             <div className="row">
                               <div className="col-md-6">
                                 <div className="form-group">
-                                  <input id="Name" name="Name" type="text" defaultValue className="form-control" placeholder="Your name" />
+                                  <input id="Name" name="Name" type="text" className="form-control" placeholder="Enter your name" />
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <div className="form-group">
-                                  <input id="Email" name="Email" type="email" defaultValue className="form-control" placeholder="Your email" />
+                                  <input id="Email" name="Email" type="email" className="form-control" placeholder="Enter your email" onkeypress="return /[0-9a-zA-Z,@,.,  ]/i.test(event.key)"/>
                                 </div>
                               </div>
                               <div className="col-md-12">
                                 <div className="form-group">
-                                  <input id="Subject" name="Subject" type="text" defaultValue className="form-control" placeholder="Subject" />
+                                  <input id="Subject" name="Subject" type="text" className="form-control" placeholder="Enter Subject" />
                                 </div>
                               </div>
                               <div className="col-md-12">
                                 <div className="form-group">
-                                  <textarea id="Comment" name="Comment" className="form-control" placeholder="Your message" rows={10} defaultValue={""} />
+                                  <textarea id="Comment" name="Comment" className="form-control" placeholder="Enter Description" rows={10} defaultValue={""} />
                                 </div>
                               </div>
                               <div className="col-md-12 text-center">
@@ -138,7 +138,7 @@ import Footer from "../component/Footer";
                         </figcaption>
                       </figure>
                     </div>
-                    <div className="col-xs-6 col-sm-4">
+                    {/* <div className="col-xs-6 col-sm-4">
                       <figure>
                         <figcaption>
                           <strong>Human resources</strong>
@@ -170,7 +170,7 @@ import Footer from "../component/Footer";
                           </span>
                         </figcaption>
                       </figure>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

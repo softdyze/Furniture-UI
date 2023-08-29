@@ -17,10 +17,10 @@ const ProductGrid = () => {
                 </a>
               </li>
               <li>
-                <a href="category.html">Product Category</a>
+                <a href="/product-grid">Product Category</a>
               </li>
               <li>
-                <a className="active" href="products-grid.html">
+                <a className="active" href="/product-list">
                   Product Sub-category
                 </a>
               </li>
@@ -567,7 +567,7 @@ const ProductGrid = () => {
                       <i className="icon icon-cart" />
                     </div>
                     <div className="figure-grid">
-                      <span className="label label-info">-50%</span>
+                      <span className="label label-info" style={{color:"white"}}>-50%</span>
                       <div className="image">
                         <a href="#productid1" className="mfp-open">
                           <img
@@ -581,8 +581,8 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Green corner</a>
                         </h2>
-                        <sub>₹ 1499,-</sub>
-                        <sup>₹ 1099,-</sup>
+                        <sub>₹ 1,499</sub>
+                        <sup>₹ 1,099</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -632,8 +632,8 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Laura</a>
                         </h2>
-                        <sub>₹ 3999,-</sub>
-                        <sup>₹ 3499,-</sup>
+                        <sub>₹ 3,999</sub>
+                        <sup>₹ 3,499</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -683,7 +683,7 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Nude</a>
                         </h2>
-                        <sup>₹ 2999,-</sup>
+                        <sup>₹ 2,999</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -720,7 +720,7 @@ const ProductGrid = () => {
                       <i className="icon icon-cart" />
                     </div>
                     <div className="figure-grid">
-                      <span className="label label-warning">New</span>
+                      <span className="label label-warning" style={{color:"white"}}>New</span>
                       <div className="image">
                         <a href="#productid1" className="mfp-open">
                           <img
@@ -734,7 +734,7 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Aurora</a>
                         </h2>
-                        <sup>₹ 299,-</sup>
+                        <sup>₹ 299</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -771,7 +771,7 @@ const ProductGrid = () => {
                       <i className="icon icon-cart" />
                     </div>
                     <div className="figure-grid">
-                      <span className="label label-warning">New</span>
+                      <span className="label label-warning" style={{color:"white"}}>New</span>
                       <div className="image">
                         <a href="#productid1" className="mfp-open">
                           <img
@@ -785,8 +785,8 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Dining set</a>
                         </h2>
-                        <sub>₹ 1999,-</sub>
-                        <sup>₹ 1499,-</sup>
+                        <sub>₹ 1,999</sub>
+                        <sup>₹ 1,499</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -836,7 +836,7 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Seat chair</a>
                         </h2>
-                        <sup>₹ 896,-</sup>
+                        <sup>₹ 896</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -873,7 +873,7 @@ const ProductGrid = () => {
                       <i className="icon icon-cart" />
                     </div>
                     <div className="figure-grid">
-                      <span className="label label-info">-50%</span>
+                      <span className="label label-info" style={{color:"white"}}>-50%</span>
                       <div className="image">
                         <a href="#productid1" className="mfp-open">
                           <img
@@ -887,8 +887,8 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Green corner</a>
                         </h2>
-                        <sub>₹ 1499,-</sub>
-                        <sup>₹ 1099,-</sup>
+                        <sub>₹ 1,499</sub>
+                        <sup>₹ 1,099</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -938,8 +938,8 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Laura</a>
                         </h2>
-                        <sub>₹ 3999,-</sub>
-                        <sup>₹ 3499,-</sup>
+                        <sub>₹ 3,999</sub>
+                        <sup>₹ 3,499</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -989,7 +989,7 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Nude</a>
                         </h2>
-                        <sup>₹ 2999,-</sup>
+                        <sup>₹ 2,999</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -1026,7 +1026,7 @@ const ProductGrid = () => {
                       <i className="icon icon-cart" />
                     </div>
                     <div className="figure-grid">
-                      <span className="label label-warning">New</span>
+                      <span className="label label-warning" style={{color:"white"}}>New</span>
                       <div className="image">
                         <a href="#productid1" className="mfp-open">
                           <img
@@ -1040,7 +1040,7 @@ const ProductGrid = () => {
                         <h2 className="title h4">
                           <a href="product.html">Aurora</a>
                         </h2>
-                        <sup>₹ 299,-</sup>
+                        <sup>₹ 299</sup>
                         <span className="description clearfix">
                           Gubergren amet dolor ea diam takimata consetetur
                           facilisis blandit et aliquyam lorem ea duo labore diam
@@ -1165,7 +1165,7 @@ const ProductGrid = () => {
                 </div>
                 <div className="popup-cell">
                   <div className="popup-buttons">
-                    <a href="product.html">
+                    <a href="/product-grid">
                       <span className="icon icon-eye" />{" "}
                       <span className="hidden-xs">View more</span>
                     </a>

@@ -59,6 +59,9 @@ const Navbar = () => {
               </li>
               {/* Multi-content dropdown */}
               <li>
+                <a href="/product-grid">Product</a>
+              </li>
+              {/* <li>
                 <a href="#">
                   Product{" "}
                   <span className="open-dropdown">
@@ -241,16 +244,11 @@ const Navbar = () => {
                             </div>
                           </div>
                         </div>
-                      </div>{" "}
-                      {/*/box*/}
-                    </div>{" "}
-                    {/*/box-2*/}
-                  </div>{" "}
-                  {/*/navbar-box*/}
-                </div>{" "}
-                {/*/navbar-dropdown*/}
-              </li>
-              {/* Single dropdown*/}
+                      </div>{" "}                     
+                    </div>{" "}                  
+                  </div>{" "}               
+                </div>{" "}               
+              </li>           */}
               <li>
                 <a href="#">
                   Shops{" "}
@@ -651,7 +649,7 @@ const Navbar = () => {
               <div className="cart-block-buttons clearfix">
                 <div className="row">
                   <div className="col-xs-6">
-                    <a href="products-grid.html" className="btn btn-clean-dark">
+                    <a href="/product-list" className="btn btn-clean-dark">
                       Continue shopping
                     </a>
                   </div>

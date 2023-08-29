@@ -33,10 +33,10 @@ const Footer = () => {
                   <a href="#">Brand</a>
                 </li>
                 <li>
-                  <a href="#">Product</a>
+                  <a href="/product-grid">Product</a>
                 </li>
                 <li>
-                  <a href="#">Category</a>
+                  <a href="/product-list">Category</a>
                 </li>
               </ul>
             </div>
@@ -64,7 +64,7 @@ const Footer = () => {
                   <a href="#">News</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="/contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -72,7 +72,7 @@ const Footer = () => {
               <h5>Sign up for our newsletter</h5>
               <p>
                 <i>
-                  Add your email address to sign up for our monthly emails and
+                Add your email address to sign up for our monthly emails and
                   to receive promotional offers.
                 </i>
               </p>
@@ -81,14 +81,14 @@ const Footer = () => {
                   className="form-control"
                   type="text"
                   name="email"
-                  defaultValue
-                  placeholder="Email address"
+                  placeholder="Enter your Email ID"
                 />
+              </div>
+              <div class="text-right">
                 <input
                   type="submit"
                   className="btn btn-clean btn-sm"
-                  defaultValue="Subscribe"
-                />
+                  defaultValue="Subscribe"/>
               </div>
             </div>
           </div>
